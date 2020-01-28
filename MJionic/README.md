@@ -105,6 +105,20 @@ https://ionicframework.com/docs/native/http/
 ionic cordova plugin add cordova-plugin-advanced-http
 sudo npm install @ionic-native/http
 
+plugin installe 
+
+200 /android/www/plugins/cordova-plugin-statusbar/www/statusbar.js (gzip)
+200 /android/www/plugins/cordova-plugin-ionic-webview/src/www/util.js
+200 /android/www/plugins/cordova-plugin-splashscreen/www/splashscreen.js (gzip)
+200 /android/www/plugins/cordova-plugin-device/www/device.js (gzip)
+200 /android/www/plugins/cordova-plugin-camera/www/CameraConstants.js (gzip)
+200 /android/www/plugins/cordova-plugin-ionic-keyboard/www/android/keyboard.js (gzip)
+200 /android/www/plugins/cordova-plugin-camera/www/CameraPopoverOptions.js (gzip)
+200 /android/www/plugins/cordova-plugin-camera/www/Camera.js (gzip)
+200 /android/www/plugins/cordova-plugin-filechooser/www/fileChooser.js
+200 /android/www/plugins/cordova-plugin-camera/www/CameraPopoverHandle.js (gzip)
+200 /android/www/plugins/cordova-plugin-telerik-imagepicker/www/imagepicker.js (gzip)
+
 
 
 

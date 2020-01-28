@@ -1,7 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {ElementTimeLine} from '../model/elementTimeLine';
-import {SubTask} from '../model/subTask';
-import {AppData} from '../model/appData';
+import {ElementTimeLine} from '../../model/elementTimeLine';
+import {SubTask} from '../../model/subTask';
+import {AppData} from '../../model/appData';
 
 @Component({
   selector: 'element-time-line',

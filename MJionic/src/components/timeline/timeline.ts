@@ -1,5 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {ElementTimeLine} from '../model/elementTimeLine';
+import {ElementTimeLine} from "../../model/elementTimeLine";
+
 
 @Component({
   selector: 'timeline',
