@@ -61,11 +61,12 @@ guard
 
 premier component installé:  ng component timeline
 avant de mettre sur talette il faut  generer le projet  (cette commande build le projet il devient reconnu par intelij a ce moment comma 
-application android )
+application android ) Elle build 
 ionic cordova prepare android
 
-creation d'un live reload pour les test sur tablette 
+creation d'un live reload pour les test sur tablette  et en meme temps dans le browser en http://localhost:8100/
 ionic cordova run android -l
+
 
 
 
