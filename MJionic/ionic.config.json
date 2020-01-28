@@ -1,5 +1,7 @@
 {
   "name": "MJionic",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }

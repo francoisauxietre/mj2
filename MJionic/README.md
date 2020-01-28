@@ -42,3 +42,30 @@ ajout de le index.html dans le header
 @import "~@ionic/angular/css/display.css";cd MyIonicProject/
 $ ionic serve
 
+
+import dans android studio en projet app
+sudo chmod 777 /dev/kvm
+
+ajout d'un emulateur nexus tablette
+
+commmande possible sous ionic
+ionic generate
+? What would you like to generate?
+❯ page
+component
+service
+module
+class
+directive
+guard
+
+premier component installé:  ng component timeline
+avant de mettre sur talette il faut  generer le projet  (cette commande build le projet il devient reconnu par intelij a ce moment comma 
+application android )
+ionic cordova prepare android
+
+creation d'un live reload pour les test sur tablette 
+ionic cordova run android -l
+
+
+
