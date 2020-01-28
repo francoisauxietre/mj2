@@ -1,5 +1,8 @@
 # mj2
 le nouveau angular en ionic  documentation https://ionicframework.com/docs/building/testing  bien cocher ANGULAR A GAUCHE
+pour lancer sur le telephone l'application
+
+ionic cordova run android --device
 
 etapes intallation 1
 sudo npm install -g ionic cordova
@@ -85,6 +88,16 @@ https://ionicframework.com/docs/building/webview
 INSTALLATION DU PREMIER PLUGIN DE CAMERA POUR AJOUTER UNE PHOTO AUX PJ
 ionic cordova plugin add cordova-plugin-camera
 sudo npm install @ionic-native/camera
+
+
+plugin pour le file choser
+
+pugin pour ajout d'une image 
+https://ionicframework.com/docs/native/image-picker
+
+ionic cordova plugin add cordova-plugin-telerik-imagepicker
+sudo npm install @ionic-native/image-picker
+
 
 si on veut faire des requete HTTP 
 on doit installe pour ne pas avoir les problèmes de CORS POLICY comme a chaque fois 

@@ -1,3 +1,4 @@
+/*
 import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
 
 constructor(private camera: Camera) { }
@@ -19,3 +20,4 @@ this.camera.getPicture(options).then((imageData) => {
 }, (err) => {
  // Handle error
 });
+*/

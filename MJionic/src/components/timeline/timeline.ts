@@ -1,22 +1,40 @@
-import { Component } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {ElementTimeLine} from '../model/elementTimeLine';
 
-/**
- * Generated class for the TimelineComponent component.
- *
- * See https://angular.io/api/core/Component for more info on Angular
- * Components.
- */
 @Component({
   selector: 'timeline',
   templateUrl: 'timeline.html'
 })
-export class TimelineComponent {
+export class TimelineComponent implements OnInit{
 
-  text: string;
+  constructor() { }
+  numberEntries = 0;
+  alternate: true;
+  toggle: true;
+  color: false;
+  size: 40;
+  side = 'left';
 
-  constructor() {
-    console.log('Hello TimelineComponent Component');
-    this.text = 'Hello World';
+  // @Input() entry: ElementTimeLine;
+  entries: ElementTimeLine[] = [];
+
+  ngOnInit(): void {
+    console.log('test');
   }
+
+  addEntry() {
+    this.numberEntries++;
+    const entry = {id: 0, header: '', description: '', show: true};
+    // this.entry = element1;
+    this.entries.push(entry);
+  }
+
+  removeEntry() {
+    if (this.numberEntries > 0) {
+      this.numberEntries--;
+    }
+    this.entries.pop();
+  }
+
 
 }

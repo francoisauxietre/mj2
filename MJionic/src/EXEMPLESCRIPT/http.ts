@@ -1,4 +1,4 @@
-import { HTTP } from '@ionic-native/http/ngx';
+/*import { HTTP } from '@ionic-native/http/ngx';
 
 constructor(private http: HTTP) {}
 
@@ -19,3 +19,4 @@ this.http.get('http://ionic.io', {}, {})
     console.log(error.headers);
 
   });
+*/

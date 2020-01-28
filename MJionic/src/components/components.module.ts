@@ -1,8 +1,11 @@
 import { NgModule } from '@angular/core';
 import { TimelineComponent } from './timeline/timeline';
+import { ElementTimeLineComponent } from './element-time-line/element-time-line';
 @NgModule({
-	declarations: [TimelineComponent],
+	declarations: [TimelineComponent,
+    ElementTimeLineComponent],
 	imports: [],
-	exports: [TimelineComponent]
+	exports: [TimelineComponent,
+    ElementTimeLineComponent]
 })
 export class ComponentsModule {}
